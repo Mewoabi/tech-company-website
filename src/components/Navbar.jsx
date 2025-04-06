@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X } from 'lucide-react'; // Hamburger and Close icons
+import logo from '../assets/atech-logo.png'
 
 function Navbar({ stripPadding }) {
   const location = useLocation();
@@ -23,7 +24,7 @@ function Navbar({ stripPadding }) {
   );
 
   return (
-    <nav className={`${!stripPadding ? "h-16 w-full px-4 sm:px-6 md:px-10 lg:px-20 xl:px-42 py-10 md:py-15 lg:py-0" : ""} relative z-50`}>
+    <nav className={`${!stripPadding ? "h-16 w-full sm:px-6 md:px-10 lg:px-20 xl:px-42 py-10 md:py-15 lg:py-0" : ""} relative z-50`}>
       <div className="container mx-auto h-full flex lg:justify-between justify-end items-center px-4">
         <div className="hidden lg:flex space-x-6 items-center">
           {navLinks}
@@ -37,7 +38,8 @@ function Navbar({ stripPadding }) {
         </button>
 
         {/* Mobile hamburger */}
-        <div className="lg:hidden">
+        <div className="flex items-center justify-between lg:hidden w-full">
+            <img src={logo} alt="site-logo" className='w-[100px] h-[40px]'/>
           <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-primary">
             {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
