@@ -23,11 +23,11 @@ const Footer = () => {
                 <div>
                     <h3 className="text-2xl font-semibold mb-8">Our Services</h3>
                     <ul className="space-y-1">
-                        <li>Printing & Branding</li>
-                        <li>Technology & IT Services</li>
-                        <li>Document Services</li>
-                        <li>Photography Services</li>
-                        <li>Register</li>
+                        <Link to={'/services'}>Printing & Branding</Link>
+                        <Link to={'/services'}>Technology & IT Services</Link>
+                        <Link to={'/services'}>Document Services</Link>
+                        <Link to={'/services'}>Photography Services</Link>
+                        <Link to={'/register'}>Register</Link>
                     </ul>
                 </div>
 

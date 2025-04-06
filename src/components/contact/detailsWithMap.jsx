@@ -14,21 +14,21 @@ const DetailsWithMap = () => {
                 {/* Contact Info */}
                 <div className="w-full lg:w-1/3 text-secondary-dark flex flex-col gap-7">
                     <div>
-                        <h3 className="text-3xl font-bold">A-TECH Head Office</h3>
+                        <h3 className="text-xl md:text-3xl font-bold">A-TECH Head Office</h3>
                     </div>
 
                     <div>
-                        <h4 className="font-bold text-3xl mb-3">Address:</h4>
+                        <h4 className="font-bold text-xl md:text-3xl mb-3">Address:</h4>
                         <p>Sosoliso street opposite health center buea</p>
                     </div>
 
                     <div>
-                        <h4 className="font-bold text-3xl mb-3">Phone:</h4>
+                        <h4 className="font-bold text-xl md:text-3xl mb-3">Phone:</h4>
                         <p>+237671541106 / +237675566345</p>
                     </div>
 
                     <div>
-                        <h4 className="font-bold text-3xl mb-3">Email:</h4>
+                        <h4 className="font-bold text-xl md:text-3xl mb-3">Email:</h4>
                         <p>info@atech.com</p>
                         <p>support@atech.com</p>
                     </div>
