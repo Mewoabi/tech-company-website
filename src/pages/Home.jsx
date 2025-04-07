@@ -9,6 +9,7 @@ import TopHeader from '../components/topHeader'
 import Testimonials from '../components/home/testimonial'
 import ContactUs from '../components/contactUs'
 import Footer from '../components/footer'
+import cover from '../assets/cover.jpg'
 
 function Home() {
     return (
@@ -17,7 +18,7 @@ function Home() {
             <div
                 className="fixed inset-0 z-0"
                 style={{
-                    backgroundImage: "url('/src/assets/cover.jpg')",
+                    backgroundImage: `url(${cover})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
