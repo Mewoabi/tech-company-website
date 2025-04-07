@@ -4,52 +4,52 @@ import ServiceCard from '../servicecard';
 const BrandingAndPrintingGroup = () => {
     const services = [
         {
-            title: "Printing & Branding",
+            title: "T-shirt Printing",
             content:
-                "We offer high-resolution printing services including banners, flyers, business cards, and brochures. Our branding services help your business stand out with professional identity creation, logo design, and packaging solutions tailored to your target audience.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "We provide customized T-shirt printing services for businesses, schools, and events. Whether you need bulk printing or a single design, we use high-quality materials and printing techniques to bring your designs to life.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-2294342.jpeg",
             path: "/services/printing-branding",
-            buttonText: "Learn More",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Technology & IT Services",
+            title: "Business Cards",
             content:
-                "From computer repairs and maintenance to software installation and networking, our IT professionals are equipped to handle all your tech-related needs. We also provide consulting for small businesses to ensure their systems are secure, efficient, and up-to-date.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "Make a lasting impression with professionally designed business cards. We offer custom design, glossy/matte finishes, and premium paper options to suit your business needs.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/2.webp",
             path: "/services/technology-it",
-            buttonText: "Explore",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Document Services",
+            title: "Color Printing",
             content:
-                "We specialize in academic and professional document typing, formatting, binding, and photocopying. Whether it's reports, theses, resumes, or forms, we ensure accuracy, clarity, and high presentation quality every time.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "Need high-quality prints? Our color printing service delivers sharp, vibrant, and professional-quality prints for flyers, brochures, posters, and more.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/3.webp",
             path: "/services/document-services",
-            buttonText: "Check It Out",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Photography Services",
+            title: "School ID Cards",
             content:
-                "Our team captures high-quality images for events, portraits, and product shoots. We offer photo editing, studio sessions, and digital delivery for individuals and businesses who need professional visual content with fast turnaround time.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "We design and print durable and professional ID cards for schools, companies, and organizations. Our ID cards include laminated, plastic, and RFID-enabled options for security and convenience.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/7.webp",
             path: "/services/photography",
-            buttonText: "View Gallery",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Training & Registration",
+            title: "Book an appointment",
             content:
-                "Enroll in our hands-on computer training programs ranging from basic digital literacy to advanced software use. We also assist with online registrations for national exams, job applications, and government services.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "Our large-scale printing services cater to businesses, schools, and events. We provide billboard printing, banners, posters, and marketing materials to enhance your brand visibility.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/5.webp",
             path: "/services/training-register",
-            buttonText: "Register Now",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Graphic Design",
+            title: "Invitation Cards",
             content:
-                "Our creative design team produces custom graphics for social media, advertising, and corporate use. Whether you need a fresh logo, engaging visuals, or branding materials, we deliver visually appealing designs that align with your goals.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "Make your special occasion unforgettable with beautifully designed invitation cards. We provide custom templates for weddings, birthdays, corporate events, and more.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/5.jpeg",
             path: "/services/graphic-design",
-            buttonText: "See Designs",
+            buttonText: "Book an appointment",
         },
     ];
 

@@ -4,52 +4,52 @@ import ServiceCard from '../servicecard';
 const DocumentServices = () => {
     const services = [
         {
-            title: "Printing & Branding",
+            title: "Photocopying",
             content:
-                "We offer high-resolution printing services including banners, flyers, business cards, and brochures. Our branding services help your business stand out with professional identity creation, logo design, and packaging solutions tailored to your target audience.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "Get fast and high-quality photocopying services for personal, business, and academic documents. We handle bulk and single-page copies efficiently.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/8.avif",
             path: "/services/printing-branding",
-            buttonText: "Learn More",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Technology & IT Services",
+            title: "Scanning of Documents",
             content:
-                "From computer repairs and maintenance to software installation and networking, our IT professionals are equipped to handle all your tech-related needs. We also provide consulting for small businesses to ensure their systems are secure, efficient, and up-to-date.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "We offer professional document scanning services to convert physical documents into digital formats. Ideal for archiving, emailing, and cloud storage.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/9.webp",
             path: "/services/technology-it",
-            buttonText: "Explore",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Document Services",
+            title: "Laminations",
             content:
-                "We specialize in academic and professional document typing, formatting, binding, and photocopying. Whether it's reports, theses, resumes, or forms, we ensure accuracy, clarity, and high presentation quality every time.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "Protect your documents with our lamination services. We laminate certificates, ID cards, photographs, and other important papers to increase their durability.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/12.webp",
             path: "/services/document-services",
-            buttonText: "Check It Out",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Photography Services",
+            title: "Passport Size Photos",
             content:
-                "Our team captures high-quality images for events, portraits, and product shoots. We offer photo editing, studio sessions, and digital delivery for individuals and businesses who need professional visual content with fast turnaround time.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "Need a passport photo for an ID, visa, or official documents? We provide professional, high-quality passport-size photos that meet government and international standards.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-5622649.webp",
             path: "/services/photography",
-            buttonText: "View Gallery",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Training & Registration",
+            title: "Photo Enlargements",
             content:
-                "Enroll in our hands-on computer training programs ranging from basic digital literacy to advanced software use. We also assist with online registrations for national exams, job applications, and government services.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "Turn your small photos into large, high-resolution prints without losing quality. Perfect for framing, decorations, and gifts.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/10.jpeg",
             path: "/services/training-register",
-            buttonText: "Register Now",
+            buttonText: "Book an appointment",
         },
         {
-            title: "Graphic Design",
+            title: "Project Writing",
             content:
-                "Our creative design team produces custom graphics for social media, advertising, and corporate use. Whether you need a fresh logo, engaging visuals, or branding materials, we deliver visually appealing designs that align with your goals.",
-            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+                "We assist students, professionals, and businesses with high-quality project writing and documentation services. Whether it’s a research paper, business proposal, or academic report, we ensure clarity, structure, and professionalism.",
+            imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/11.jpeg",
             path: "/services/graphic-design",
-            buttonText: "See Designs",
+            buttonText: "Book an appointment",
         },
     ];
 

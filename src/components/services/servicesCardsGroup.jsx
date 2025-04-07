@@ -4,52 +4,52 @@ import ServiceCard from '../servicecard';
 const ServicesCardsGroup = () => {
   const services = [
     {
-      title: "Printing & Branding",
+      title: "Computer Training",
       content:
-        "We offer high-resolution printing services including banners, flyers, business cards, and brochures. Our branding services help your business stand out with professional identity creation, logo design, and packaging solutions tailored to your target audience.",
+        "We offer hands-on computer training programs to help individuals and businesses learn essential IT skills. Whether you are a beginner or an advanced user, our training covers Microsoft Office, programming, networking, graphic design, and more.",
       imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
       path: "/services/printing-branding",
-      buttonText: "Learn More",
+      buttonText: "Book an appointment",
     },
     {
-      title: "Technology & IT Services",
+      title: "Computer Maintenance",
       content:
-        "From computer repairs and maintenance to software installation and networking, our IT professionals are equipped to handle all your tech-related needs. We also provide consulting for small businesses to ensure their systems are secure, efficient, and up-to-date.",
-      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+        "Keep your computer systems running smoothly and efficiently with our maintenance services. We provide hardware and software troubleshooting, virus removal, system upgrades, and general repairs to extend the life of your devices.",
+      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-6754846.webp",
       path: "/services/technology-it",
-      buttonText: "Explore",
+      buttonText: "Book an appointment",
     },
     {
-      title: "Document Services",
+      title: "Computer Networking",
       content:
-        "We specialize in academic and professional document typing, formatting, binding, and photocopying. Whether it's reports, theses, resumes, or forms, we ensure accuracy, clarity, and high presentation quality every time.",
-      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+        "We design and install secure and reliable networks for businesses, schools, and individuals. Our services include LAN/WAN setup, Wi-Fi installation, router configuration, and network security solutions to keep your data safe.",
+      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/1.webp",
       path: "/services/document-services",
-      buttonText: "Check It Out",
+      buttonText: "Book an appointment",
     },
     {
-      title: "Photography Services",
+      title: "CCTV Installation",
       content:
-        "Our team captures high-quality images for events, portraits, and product shoots. We offer photo editing, studio sessions, and digital delivery for individuals and businesses who need professional visual content with fast turnaround time.",
-      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+        "Enhance the security of your home or business with our CCTV surveillance system installation. We provide high-quality cameras, remote monitoring setups, and expert guidance to ensure maximum protection.",
+      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-6257537.webp",
       path: "/services/photography",
-      buttonText: "View Gallery",
+      buttonText: "Book an appointment",
     },
     {
-      title: "Training & Registration",
+      title: "Data Analysis",
       content:
-        "Enroll in our hands-on computer training programs ranging from basic digital literacy to advanced software use. We also assist with online registrations for national exams, job applications, and government services.",
-      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+        "We provide professional data analysis services to help businesses make informed decisions. Our experts use Excel, SPSS, Python, and other tools to analyze and interpret your data for better strategic planning.",
+      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-792199-1.webp",
       path: "/services/training-register",
-      buttonText: "Register Now",
+      buttonText: "Book an appointment",
     },
     {
-      title: "Graphic Design",
+      title: "Annual Maintenance Contract (AMC)",
       content:
-        "Our creative design team produces custom graphics for social media, advertising, and corporate use. Whether you need a fresh logo, engaging visuals, or branding materials, we deliver visually appealing designs that align with your goals.",
-      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1595392.webp",
+        "Our AMC service ensures ongoing support for businesses by providing regular system maintenance, troubleshooting, and IT support to prevent downtime and ensure smooth operations.",
+      imageUrl: "http://advancedtechcomputercenter-site.preview-domain.com/wp-content/uploads/2025/04/pexels-photo-1714208.webp",
       path: "/services/graphic-design",
-      buttonText: "See Designs",
+      buttonText: "Book an appointment",
     },
   ];
 
